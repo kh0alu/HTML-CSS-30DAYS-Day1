@@ -5,8 +5,47 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./assets/css/reset.css" />
+        <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
         <link rel="stylesheet" href="./assets/css/styles.css" />
         <title>HTML-CSS-30DAYS-DAY1</title>
     </head>
-    <body></body>
+    <body>
+        <div class="card">
+            <div class="icons">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="card__image">
+                <img src="./assets/img/product01.png" alt="Nike Shoes" />
+            </div>
+            <h2 class="card__title">Nike Zoom KD 12</h2>
+            <p class="card__price">99$</p>
+            <div class="card__details">
+                <div class="size row">
+                    <h3>Size:</h3>
+                    <span class="size-options">6</span>
+                    <span class="size-options">7</span>
+                    <span class="size-options">8</span>
+                    <span class="size-options">9</span>
+                </div>
+                <div class="color row">
+                    <h3>Color:</h3>
+                    <span class="color-options green"></span>
+                    <span class="color-options red"></span>
+                    <span class="color-options black"></span>
+                </div>
+                <div class="actions row">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-cart">Add Cart</button>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
